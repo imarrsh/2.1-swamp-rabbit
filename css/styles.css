@@ -27,7 +27,7 @@ header h3 {
   color: #ffffff;
   text-align: center;
   font-size: 1.25em;
-  line-height: 1.2;
+  line-height: 1.5;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -36,8 +36,12 @@ header h3 {
   padding-top: 20px;
 }
 
+.content p {
+  font-size: 16px;
+}
+
 .carousel {
-  padding: 0;
+  padding: 0 0 20px;
   list-style: none;
 }
 
@@ -46,11 +50,27 @@ header h3 {
   list-style: none;
 }
 
+iframe {
+  width: 100%;
+  height: auto;
+  border: 0;
+  height: 250px;
+}
+
+footer h4 {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
 
 @media (min-width: 450px) {
 
   header .logo {
     width: 320px;
   }
+
+  .cont
 
 }
