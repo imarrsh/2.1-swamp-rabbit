@@ -40,11 +40,12 @@ header h3 {
 
 .content {
   max-width: 965px;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .content p {
   font-size: 16px;
+  margin: 5px 0;
 }
 
 .carousel {
@@ -62,6 +63,8 @@ header h3 {
   line-height: 1.75;
 }
 #main-content h3 {
+  font-size: 22px;
+  line-height: 1.75;
   color: #0E1D12;
 }
 
@@ -78,9 +81,14 @@ iframe {
 
 
 footer {
+  margin-top: 20px;
   padding: 24px 0;
   background-color: #042844;
   color: #ffffff;
+}
+
+footer .content {
+  margin-top: 0;
 }
 
 footer span {
@@ -88,10 +96,10 @@ footer span {
   margin: 0 auto;
   text-align: center;
   vertical-align: middle;
-  /*margin-right: 15px*/
 }
 
 footer .logo {
+  margin-bottom: 10px;
   width: 20px;
 }
 
@@ -109,7 +117,7 @@ footer .logo {
 
   footer .logo {
     width: 20px;
+    margin-bottom: 0;
   }
-
 
 }
