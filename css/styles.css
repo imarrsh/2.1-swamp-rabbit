@@ -14,7 +14,8 @@ img {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 7vw 0;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
 }
 
 header .logo {
@@ -39,7 +40,7 @@ header h3 {
 
 .content {
   max-width: 965px;
-  padding: 20px 0
+  padding-top: 20px;
 }
 
 .content p {
